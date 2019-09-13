@@ -1,8 +1,4 @@
 DAO
-en todo sistema se sogie las 3 capas vista controlado  y modelo
-en la vista estara todas las capas de controlador
-los controladores son como un intermediador entre la interfaz y el modelo
-en el modelo esta toda la logica del sistema 
 
 DAO
 DATA ACCES OBJECT
