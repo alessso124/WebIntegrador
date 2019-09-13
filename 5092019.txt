@@ -1,0 +1,21 @@
+DAO
+en todo sistema se sogie las 3 capas vista controlado  y modelo
+en la vista estara todas las capas de controlador
+los controladores son como un intermediador entre la interfaz y el modelo
+en el modelo esta toda la logica del sistema 
+
+DAO
+DATA ACCES OBJECT
+LOS DATOS ESTA NE EN UNA BASE DE DATOS ES UN PATRON QUE ESTA EN UNA CLASE QUE HACE CONSULTAS EN LA BASE DE DATOS 
+CON ESE PATRON SE ACCEDE A LAS BASE DEDATOS
+
+
+DTO
+ENCAPSULA LOS DATOS PARA QUE ESTOS PUEDAN VIAJAR 
+EN EL CASO DE DOS TABLAS "EL DTO"  ES UNA CLASE QUE ALMACENA UNA CANTIDAD DE TABLAS QUE PODRIA JUNTAR DOS TABLAS O MAS 
+
+
+DAO se encarga del CRUD
+
+INSERT INTO `address` (`id`, `fk_user`, `contry`, `address`, `zip_code`) VALUES ('1', '1', 'PERU', 'SOCABAYA', '054');
+SELECT * from address WHERE fk_user=(SELECT id from user WHERE alias='enrique')
